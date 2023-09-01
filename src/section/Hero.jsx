@@ -6,7 +6,7 @@ import image from '../assets/img/memoji.png'
 
 function Hero() {
   return (
-    <div className="container mx-auto flex flex-col gap-8 pt-12 h-screen">
+    <div className="container mx-auto flex flex-col gap-8 h-[90%] justify-center">
         <div>
             <img src={image} alt="memoji" />
         </div>
