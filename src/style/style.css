@@ -8,3 +8,7 @@
         src: url('/assets/fonts/satoshi.ttf');
     }
 }
+
+body {
+    background-color: #202127;
+}

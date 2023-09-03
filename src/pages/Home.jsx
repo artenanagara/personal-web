@@ -1,19 +1,21 @@
 
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 import Hero from "../section/Hero"
 import CardPorto from "../components/CardPorto"
 
 function Home() {
   return (
     <div className="bg-[url('../assets/img/ornament.svg')] bg-no-repeat bg-right-top relative container mx-auto">
-      <div className="h-screen">
-    <Navbar />
-    <Hero />
+      <div className="h-screen flex flex-col">
+        <Navbar />
+        <Hero />
       </div>
-    <div className="container mx-auto my-16 flex flex-col gap-8">
+      <div className="container mx-auto my-16 flex flex-col gap-8">
         <h1 className="text-4xl text-white font-bold">Selected Work</h1>
         <CardPorto />
-    </div>
+      </div>
+      <Footer />
     </div>
     
       

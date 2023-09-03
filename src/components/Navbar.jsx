@@ -12,14 +12,14 @@ function Navbar() {
   ]
 
   return (
-    <div className='w-full sticky top-0 z-10 bg-black container mx-auto flex flex-row justify-between py-8 backdrop-filter backdrop-blur-lg bg-opacity-30'>
+    <div className='w-full fixed container mx-auto flex flex-row justify-between py-8'>
       <div className='logo'>
         <h1 className='text-2xl font-bold text-primary'>Artena.</h1>
       </div>
       <div>
         <div className='flex flex-row gap-9 text-white text-base font-medium'>
           {navlinks.map((link) => (
-            <Link to={link.href} key={link.name} className='hover:text-primary hover:font-semibold'>
+            <Link to={link.href} key={link.name} className='hover:text-primary hover:-translate-y-1 transition duration-150'>
             {link.name}
             </Link>
           ))}

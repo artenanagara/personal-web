@@ -34,7 +34,7 @@ function CardPorto() {
                         </button>
                     </div>
                 </div>
-                <div className="text-2xl text-white font-semibold justify justify-items-end">
+                <div className="text-2xl text-white font-semibold mt-4">
                     <h2 className="mb-4">Tools</h2>
                     <div className="flex flex-row gap-5">
                         <div className="bg-white px-2 py-2 rounded-full">
