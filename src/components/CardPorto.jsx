@@ -6,7 +6,7 @@ import baeminscreen from '../assets/img/baemin screen.png'
 
 function CardPorto() {
   return (
-    <div className="bg-sky-500 pt-16 px-16 flex flex-row justify-between rounded-xl">
+    <div className="bg-sky-500 pt-16 px-16 flex flex-col justify-between rounded-xl lg:flex-row">
             <div className="flex flex-col gap-12 w-2/3">
                 <div className="flex flex-row gap-8">
                     <div>
