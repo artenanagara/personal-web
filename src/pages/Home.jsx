@@ -10,7 +10,7 @@ function Home() {
     <div className="bg-[url('../assets/img/ornament.svg')] bg-no-repeat bg-right-top relative">
         <div className="flex flex-col gap-16">
           <Navbar />
-          <div className="h-screen flex flex-col justify-center">
+          <div className="flex flex-col justify-center md:h-screem">
             <Hero />
           </div>
         <SelectedWork />
