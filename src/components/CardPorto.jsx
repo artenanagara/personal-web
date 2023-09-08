@@ -6,39 +6,39 @@ import baeminscreen from '../assets/img/baemin screen.png'
 
 function CardPorto() {
   return (
-    <div className="bg-sky-500 pt-16 px-16 flex flex-col justify-between rounded-xl lg:flex-row">
-            <div className="flex flex-col gap-12 w-2/3">
+    <div className="bg-sky-500 pt-8 px-8 flex flex-col gap-16 rounded-xl md:flex-row md:pt-16 md:px-16">
+            <div className="flex flex-col gap-8 md:gap-12 md:w-2/3">
                 <div className="flex flex-row gap-8">
                     <div>
-                        <img src={baemin} alt="Logo Baemin"/>
+                        <img src={baemin} alt="Logo Baemin" className='w-16'/>
                     </div>
-                    <div className="flex flex-col justify-between gap-2 text-white">
-                        <h1 className="text-5xl font-bold">Baemin</h1>
-                        <p className="text-2xl font-medium">2019 &bull; UI/UX Design</p>
+                    <div className="flex flex-col justify-between -gap-1 text-white">
+                        <h1 className="text-[32px] font-bold md:text-5xl ">Baemin</h1>
+                        <p className="text-base md:text-2xl font-medium">2019 &bull; UI/UX Design</p>
                     </div>
                 </div>
-                <div className="text-gray-200">
+                <div className="text-gray-200 text-sm md:text-lg">
                     <p>Hello little cute foodie,We're food delivery expert from South Korea. We are here to share the
                         love and passion for food with you by delivering yummy dishes to your doorstep.Try it now! (many
                         hot deals are saved for new users, don't miss it)</p>
                 </div>
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-row gap-2 items-center md:gap-4">
                     <div>
-                        <button className="px-4 py-2 bg-white text-sky-500 rounded-lg">
+                        <button className="px-4 py-2 bg-white text-sky-500 text-sm  text-dark-0 font-medium rounded-md md:text-base md:px-6 md:py-4 hover:bg-white hover:text-black">
                             Read Case Study
                         </button>
                     </div>
                     <div>
-                        <button className="px-4 py-2 bg-none text-white font-medium rounded-lg">
+                        <button className="px-4 py-2 bg-none text-white text-sm font-medium rounded-lg md:text-base">
                             View Live App 
                         </button>
                     </div>
                 </div>
-                <div className="text-2xl text-white font-semibold mt-4">
-                    <h2 className="mb-4">Tools</h2>
+                <div className="hidden md:flex flex-col -gap-2">
+                    <h2 className="mb-4 text-2xl text-white font-semibold">Tools</h2>
                     <div className="flex flex-row gap-5">
                         <div className="bg-white px-2 py-2 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
                                 viewBox="0 0 48 48">
                                 <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z">
                                 </path>
@@ -53,7 +53,7 @@ function CardPorto() {
                             </svg>
                         </div>
                         <div className="bg-white px-2 py-2 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
                                 viewBox="0 0 48 48">
                                 <path fill="#43a047"
                                     d="M37,45H11c-1.657,0-3-1.343-3-3V6c0-1.657,1.343-3,3-3h19l10,10v29C40,43.657,38.657,45,37,45z">
@@ -66,7 +66,7 @@ function CardPorto() {
                             </svg>
                         </div>
                         <div className="bg-white px-2 py-2 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
                                 <circle cx="24" cy="24" r="20" fill="#2196f3"></circle><path fill="#fff" d="M29,31H14c-1.657,0-3-1.343-3-3V17h15c1.657,0,3,1.343,3,3V31z"></path><polygon fill="#fff" points="37,31 31,27 31,21 37,17"></polygon>
                                 </svg>
                         </div>

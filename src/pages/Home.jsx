@@ -7,7 +7,7 @@ import Shot from "../section/Shot"
 
 function Home() {
   return (
-    <div className="bg-[url('../assets/img/ornament.svg')] bg-no-repeat bg-right-top relative container mx-auto ">
+    <div className="bg-[url('../assets/img/ornament.svg')] bg-no-repeat bg-right-top relative">
         <div className="flex flex-col gap-16">
           <Navbar />
           <div className="h-screen flex flex-col justify-center">
