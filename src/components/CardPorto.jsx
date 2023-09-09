@@ -24,7 +24,7 @@ function CardPorto() {
                 </div>
                 <div className="flex flex-row gap-2 items-center md:gap-4">
                     <div>
-                        <button className="px-4 py-2 bg-white text-sky-500 text-sm  text-dark-0 font-medium rounded-md md:text-base md:px-6 md:py-4 hover:bg-white hover:text-black">
+                        <button className="px-4 py-2 bg-white text-sky-500 text-sm  text-dark-0 font-medium rounded-md md:text-base md:px-6 md:py-4 hover:bg-sky-600 hover:text-white">
                             Read Case Study
                         </button>
                     </div>
