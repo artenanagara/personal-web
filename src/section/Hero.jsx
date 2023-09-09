@@ -19,7 +19,7 @@ function Hero() {
         </div>
         <div>
             <button
-                className="mt-4 px-4 py-2 bg-primary text-sm  text-dark-0 font-semibold rounded-md md:text-base md:px-6 md:py-4 hover:bg-white hover:text-black">
+                className="mt-4 px-4 py-2 bg-primary text-sm  text-dark-0 font-semibold rounded-md md:text-base md:px-6 md:py-4  hover:bg-white hover:text-black">
                 See what i do &rarr;
             </button>
         </div>
