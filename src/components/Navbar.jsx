@@ -12,12 +12,12 @@ function Navbar() {
   ]
 
   return (
-    <div className='w-[1240px] fixed container mx-auto flex flex-row justify-between py-8'>
+    <div className='fixed container mx-auto flex flex-row justify-between py-8'>
       <div className='logo'>
         <h1 className='text-2xl font-bold text-primary'>Artena.</h1>
       </div>
       <div>
-        <div className='flex flex-row gap-9 text-white text-base font-medium'>
+        <div className='hidden md:flex flex-row gap-9 text-white text-base font-medium'>
           {navlinks.map((link) => (
             <Link to={link.href} key={link.name} className='hover:text-primary'>
             {link.name}
