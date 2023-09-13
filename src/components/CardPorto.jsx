@@ -75,7 +75,7 @@ function CardPorto() {
                 </div>
             </div>
             <div className="">
-                <img className="rounded-t-lg w-[350px] h-[540px] align-items-center" src={baeminscreen} alt=""/>
+                <img className="rounded-t-lg w-[350px] h-[540px] object-center" src={baeminscreen} alt=""/>
             </div>
         </div>
   )
