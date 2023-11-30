@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../assets/img/memoji.png";
 import { Link } from "react-router-dom";
 
 
@@ -46,7 +47,9 @@ function Linktree() {
         <div className="bg-black max-w-sm w-screen min-h-screen mx-auto shadow-xl shadow-neutral-900 py-4 px-5 flex flex-col justify-center items-strech text-center gap-8">
 
           <div className="flex flex-col gap-4">
-            <div className="w-[128px] h-[128px] rounded-full bg-white self-center"></div>
+            <div className="w-[128px] h-[128px] rounded-full bg-white self-center flex items-center justify-center">
+                <img src={image} alt="memoji"></img>
+            </div>
               <div className="flex flex-col gap-1 text-white">
                 <p className="text-2xl font-bold">Artena Nagara</p>
                 <p className="text-base font-thin">UI Engineer | 🪐 Semarang</p>
