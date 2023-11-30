@@ -30,4 +30,4 @@ function Shot() {
   )
 }
 
-export default Shot
+export default Shot;

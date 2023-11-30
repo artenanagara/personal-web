@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        font-family: "satoshi";
-        src: url('/assets/fonts/satoshi.ttf');
+ html {
+    font-family: "satoshi";
+    src: url('/assets/fonts/satoshi.ttf');
     }
 }
 
