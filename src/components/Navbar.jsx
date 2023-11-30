@@ -7,7 +7,7 @@ function Navbar() {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Work", href: "/work" },
-    { name: "Contact", href: "/Contact" },
+    { name: "Contact", href: "/Linktree" },
   ];
   return (
     <div className="container mx-auto fixed flex justify-between py-8">
