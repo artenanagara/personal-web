@@ -21,22 +21,22 @@ const socialLinks = [
   {
     name: "Instagram",
     url: "https://instagram.com/artenanagara",
-    image: "https://cdn.simpleicons.org/instagram/white",
+    image: "https://cdn.simpleicons.org/instagram/black",
   },
   {
     name: "Linkedin",
     url: "https://www.linkedin.com/in/artena-nagara/",
-    image: "https://cdn.simpleicons.org/linkedin/white",
+    image: "https://cdn.simpleicons.org/linkedin/black",
   },
   {
     name: "Dribbble",
     url: "https://dribbble.com/artenanagara",
-    image: "https://cdn.simpleicons.org/dribbble/white",
+    image: "https://cdn.simpleicons.org/dribbble/black",
   },
   {
     name: "Github",
     url: "https://www.github.com/artenanagara",
-    image: "https://cdn.simpleicons.org/github/white",
+    image: "https://cdn.simpleicons.org/github/black",
   },
 ];
 
