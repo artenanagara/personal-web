@@ -2,7 +2,6 @@ import React from "react";
 import image from "../assets/img/memoji.png";
 import { Link } from "react-router-dom";
 
-
 const links = [
   {
     name: "Personal Website",
@@ -72,7 +71,7 @@ function Linktree() {
             <p class="font-normal text-slate-200 text-center text-xs">Don't hesitate to discuss with, a cup of coffee would help brain to works</p>
           </div>
 
-          <div className="flex flex-row gap-3 justify-center">
+          <div className="flex flex-row gap-6 justify-center">
             {
               socialLinks.map(link =>(
                 <div className="hover:-translate-y-2 duration-150">

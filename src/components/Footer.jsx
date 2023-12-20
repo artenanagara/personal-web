@@ -40,7 +40,7 @@ function Footer() {
           Made with Love <span className="text-red-500">&hearts;</span>
         </p>
         <p className="text-white text-sm font-medium">
-          © 2021 Artena. All rights reserved.
+          © 2023 Artena. All rights reserved.
         </p>
       </div>
       <div className="hidden md:flex flex-col justify justify-between">
